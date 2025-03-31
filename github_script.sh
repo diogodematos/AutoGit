@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LOG_FILE="$HOME/git_auto_commit.log"
-TODAY=$(date '+%Y-%m-%d')
+TODAY=$(date '+%Y-%m-%d %H:%M:%S')
 
 # Se já foi executado hoje, sai
 #if grep -q "$TODAY" "$LOG_FILE"; then
