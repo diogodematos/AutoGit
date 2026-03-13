@@ -5,7 +5,6 @@ TODAY=$(date '+%Y-%m-%d')
 
 # Se já foi executado hoje, sai
 if grep -q "$TODAY" "$LOG_FILE"; then
-    echo "Já foi executado hoje. Saindo..."
     exit 0
 else
     echo "$TODAY" >> "$LOG_FILE" &&
