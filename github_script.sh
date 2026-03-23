@@ -11,5 +11,6 @@ else
     cd "$HOME/Desktop/AutoGit" &&
     git add . &&
     git commit -m "Auto commit $(date '+%Y-%m-%d %H:%M:%S')" &&
-    git push
+    git push &&
+    echo "Script executado"
 fi
